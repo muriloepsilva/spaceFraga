@@ -1,0 +1,7 @@
+<mat-select class="language-dropdown" placeholder="{{ defaultLanguage }}">
+  <mat-option
+    *ngFor="let language of languages; index as index"
+    [value]="index"
+    >{{ language }}</mat-option
+  >
+</mat-select>

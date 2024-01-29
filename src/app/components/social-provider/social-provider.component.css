@@ -1,0 +1,21 @@
+p {
+  color: gray;
+  font-size: large;
+}
+
+.other-authentication {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  border: 1px solid lightgray;
+  border-bottom: 1px solid black;
+  width: 390%;
+  height: 30px;
+  margin-top: 5%;
+}
+
+.other-authentication:hover {
+  border-bottom: 1px solid rgb(189, 22, 44);
+}

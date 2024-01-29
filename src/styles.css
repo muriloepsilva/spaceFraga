@@ -1,0 +1,7 @@
+html,
+body {
+  height: 100%;
+  background: url(../images/spacef-bg.png) no-repeat center center fixed;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  margin: 0;
+}

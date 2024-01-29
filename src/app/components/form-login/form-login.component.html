@@ -1,0 +1,16 @@
+<div class="login-card">
+  <app-language-dropdown
+    class="dropdown-language"
+    [languages]="['Português (Brasil)', 'English', 'Español']"
+  />
+  <p class="login-card-title">Entre na sua conta</p>
+  <form class="login-form">
+    <label>Endereço de e-mail</label>
+    <input type="email" />
+    <label>Senha</label>
+    <input type="password" />
+    <a href="#" class="forgot-password">Esqueceu sua senha?</a>
+    <button class="login-button" type="submit">Entrar</button>
+  </form>
+  <app-social-provider [accounts]="['Google', 'Microsoft']" />
+</div>
